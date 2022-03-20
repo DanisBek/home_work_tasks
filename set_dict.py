@@ -101,11 +101,44 @@
 # Создайте цикл который справшивает у пользователя 10 чисел и добавьте их в SET.
 # Сделайте так чтобы эти данные уже никто не смог поменять позже.
 
-set = set()
-count = 0
-while count < 10:
-    b = int(input('введите число : '))
-    set.add(b)
-    count += 1
-print(set)
-print(tuple(set))
+# set = set()
+# count = 0
+# while count < 10:
+#     login = input('введите логин : ')
+#     password = input('введите логин : ')
+#     set.add(login)
+#     set.add(password)
+#     count += 1
+# print(tuple(set))
+
+
+# Problem 11:
+# Есть список Южноамериканских стран
+# СПИСОК №2
+# в котором Суринам встречается два раза. Необходимо написать программу,
+# которая удалит дублирующуюся запись, и возвратит в результате список.
+
+# south_american_countries = ['Argentina', 'Bolivia', 'Brazil', 'Chile', 'Colombia',
+#   'Ecuador', 'Guyana', 'Paraguay', 'Peru', 'Suriname', 'Suriname', 'Uruguay', 'Venezuela']
+#
+# make_set = set(south_american_countries)
+# make_list = list(make_set)
+# print(make_list)
+
+
+# Problem 101:
+# Вы собираетесь на Иссык-Куль. Пока ваш чемодан пуст:
+# suitcase = []
+# Однако он
+# может вместить всего 5 вещей.
+# Положите 5 вещей в чемодан.
+# Вы передумали, и решили убрать последнюю вещь.
+
+# suitcase = []
+# count = 0
+# while count < 5:
+#     suitcase.append('hat')
+#     count += 1
+# print(suitcase)
+# dell = suitcase.pop(4)
+# print(suitcase)
